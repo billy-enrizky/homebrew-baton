@@ -1,7 +1,6 @@
 class Baton < Formula
   desc "Terminal-first workspace for coding agent harnesses"
   homepage "https://github.com/billy-enrizky/baton"
-  version "0.3.0"
   license "MIT"
 
   on_macos do

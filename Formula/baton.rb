@@ -5,25 +5,25 @@ class Baton < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.1/baton-aarch64-apple-darwin.tar.gz"
-      sha256 "82ad334c902ed132557f75f6f820a3651385efef6d6ff8e92e0d0299a0e0ce3d"
+      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.2/baton-aarch64-apple-darwin.tar.gz"
+      sha256 "a0b3e8968df7b1b66376b18357ca797afa66e804fcb3d6eace31bfee0c53f143"
     end
 
     on_intel do
-      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.1/baton-x86_64-apple-darwin.tar.gz"
-      sha256 "6c9f6269f440e6833f12acc9de20358329c2a8ee08d1ccb4ad71df82d7015a99"
+      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.2/baton-x86_64-apple-darwin.tar.gz"
+      sha256 "ec50fcd0a1e31d88c96e0fa5145482ed9cbdc6bccb941ac7eb6f656ace6350af"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.1/baton-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6c7c044120c0a0f7dd2abe496a58cb96cc8ee2e68601c513538134fd764f73af"
+      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.2/baton-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "80228e04072c81bc40f10c98de0464afafaa939100d4a15d602deb0c7311fd94"
     end
 
     on_intel do
-      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.1/baton-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "34b20966a76521f5f22e4b22fadb0d412661ef525cbaf7694308f222e64f392a"
+      url "https://github.com/billy-enrizky/baton/releases/download/v0.4.2/baton-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "989743557881ef706f2fdb1e87532be04707a54d5a72b4b1980e3b42fc9be2ae"
     end
   end
 
